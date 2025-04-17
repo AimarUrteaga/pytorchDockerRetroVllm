@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.4.3)
+cmake_minimum_required(VERSION 3.5)
 
 # These should match the types of IR output by compute++
 set(IR_MAP_spir bc)
