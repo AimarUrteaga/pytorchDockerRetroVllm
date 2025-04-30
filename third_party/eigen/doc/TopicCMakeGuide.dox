@@ -12,8 +12,7 @@ used in CMake projects.
 %Eigen exports a CMake target called `Eigen3::Eigen` which can be imported
 using the `find_package` CMake command and used by calling
 `target_link_libraries` as in the following example:
-\code{.cmake}
-cmake_minimum_required (VERSION 3.0)
+\code{.cmake}cmake_minimum_required(VERSION 3.5)
 project (myproject)
 
 find_package (Eigen3 3.3 REQUIRED NO_MODULE)

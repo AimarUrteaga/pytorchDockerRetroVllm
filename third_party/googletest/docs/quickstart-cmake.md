@@ -48,8 +48,7 @@ in this quickstart, you'll use the
 To do this, in your project directory (`my_project`), create a file named
 `CMakeLists.txt` with the following contents:
 
-```cmake
-cmake_minimum_required(VERSION 3.14)
+```cmakecmake_minimum_required(VERSION 3.5)
 project(my_project)
 
 # GoogleTest requires at least C++11

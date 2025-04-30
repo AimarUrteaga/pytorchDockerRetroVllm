@@ -5,8 +5,7 @@
 #
 # This source code is licensed under the BSD-style license found in the
 # LICENSE file in the root directory of this source tree.
-
-CMAKE_MINIMUM_REQUIRED(VERSION 3.15 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
 # Allow specifying -D<PackageName>_ROOT.
 CMAKE_POLICY(SET CMP0074 NEW)

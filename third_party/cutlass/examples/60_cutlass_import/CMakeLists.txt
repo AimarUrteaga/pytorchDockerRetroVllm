@@ -34,8 +34,7 @@
 # the install with "-DCUTLASS_DIR=<root-of-cutlass-install>" CMake
 # argument or any of the other features CMake allows for specifying
 # locations of installed CMake packages via find_package().
-
-cmake_minimum_required(VERSION 3.18 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
 project(cutlass_import_example VERSION 0.2 LANGUAGES CXX CUDA)
 

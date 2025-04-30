@@ -1,5 +1,4 @@
-# Minimum CMake required
-cmake_minimum_required(VERSION 3.14)
+# Minimum CMake requiredcmake_minimum_required(VERSION 3.5)
 include(cmake/Utils.cmake)
 # Set default build type
 if(NOT CMAKE_BUILD_TYPE)

@@ -3,8 +3,7 @@
 # to build. Instead of including them here or doing a submodule, this uses
 # FetchContent (https://cmake.org/cmake/help/latest/module/FetchContent.html) to
 # grab the dependencies at config time. This requires CMake 3.14 or higher.
-
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.5)
 include(FetchContent)
 
 # No particular reason for the specific GIT_TAGs for the following repos, they

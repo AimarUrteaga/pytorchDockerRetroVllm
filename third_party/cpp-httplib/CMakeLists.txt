@@ -60,8 +60,7 @@
 	-------------------------------------------------------------------------------
 
 	ARCH_INDEPENDENT option of write_basic_package_version_file() requires Cmake v3.14
-]]
-cmake_minimum_required(VERSION 3.14.0 FATAL_ERROR)
+]]cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
 # Get the CPPHTTPLIB_VERSION value and use it as a version
 # This gets the string with the CPPHTTPLIB_VERSION value from the header.

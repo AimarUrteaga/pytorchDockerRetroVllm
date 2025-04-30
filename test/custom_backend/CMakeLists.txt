@@ -1,5 +1,4 @@
-# Basic CMake setup
-cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
+# Basic CMake setupcmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 project(custom_backend)
 
 if(USE_ROCM)
